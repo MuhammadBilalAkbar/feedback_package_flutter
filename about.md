@@ -207,7 +207,7 @@ void alertFeedbackFunction(context, feedback) =>
 
 - **Third button** is provide feedback through email:
   <br/>
-  ![Feedback HomePage](screenshots/FeedbackEmail.PNG)
+  ![Feedback HomePage](screenshots/FeedbackEmail.jpeg)
   <br/>
 
 ```dart 
