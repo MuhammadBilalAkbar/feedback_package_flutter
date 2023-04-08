@@ -9,8 +9,11 @@ dependencies:
   flutter:
     sdk: flutter
   cupertino_icons: ^1.0.2
+  # Feedback package
   feedback: ^2.6.0
+  # To send feedback as email
   flutter_email_sender: ^5.1.0
+  #  To save feedback image in files
   path_provider: ^2.0.10
 
 dev_dependencies:
