@@ -21,6 +21,7 @@ class MyApp extends StatelessWidget {
         ),
         child: MaterialApp(
           title: 'Feedback Package Demo',
+          debugShowCheckedModeBanner: false,
           theme: ThemeData(
             primarySwatch: Colors.blue,
             textTheme: const TextTheme(
