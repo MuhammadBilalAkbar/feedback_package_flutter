@@ -1,7 +1,7 @@
 import 'package:feedback/feedback.dart';
 import 'package:flutter/material.dart';
 
-import 'home_page.dart';
+import 'pages/home_page.dart';
 
 void main() => runApp(const MyApp());
 
@@ -12,10 +12,12 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) => BetterFeedback(
         theme: FeedbackThemeData(
           background: Colors.pinkAccent,
-          feedbackSheetColor: Colors.greenAccent,
+          feedbackSheetColor: Colors.white,
           feedbackSheetHeight: 0.25,
           activeFeedbackModeColor: Colors.lightBlueAccent,
           sheetIsDraggable: true,
+          bottomSheetDescriptionStyle:
+              const TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
         ),
         child: MaterialApp(
           title: 'Feedback Package Demo',
@@ -25,17 +27,21 @@ class MyApp extends StatelessWidget {
               bodyMedium: TextStyle(fontSize: 30),
             ),
             appBarTheme: const AppBarTheme(
-              titleTextStyle:
-                  TextStyle(fontSize: 30, fontWeight: FontWeight.bold),
+              titleTextStyle: TextStyle(
+                fontSize: 30,
+                fontWeight: FontWeight.bold,
+              ),
             ),
             elevatedButtonTheme: ElevatedButtonThemeData(
               style: ElevatedButton.styleFrom(
                 textStyle: const TextStyle(fontSize: 40),
+                minimumSize: const Size(200, 50),
               ),
             ),
             textButtonTheme: TextButtonThemeData(
               style: TextButton.styleFrom(
                 textStyle: const TextStyle(fontSize: 30),
+                minimumSize: const Size(200, 50),
               ),
             ),
           ),
