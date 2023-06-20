@@ -29,19 +29,19 @@ class MyApp extends StatelessWidget {
             ),
             appBarTheme: const AppBarTheme(
               titleTextStyle: TextStyle(
-                fontSize: 30,
+                fontSize: 24,
                 fontWeight: FontWeight.bold,
               ),
             ),
             elevatedButtonTheme: ElevatedButtonThemeData(
               style: ElevatedButton.styleFrom(
-                textStyle: const TextStyle(fontSize: 40),
+                textStyle: const TextStyle(fontSize: 24),
                 minimumSize: const Size(200, 50),
               ),
             ),
             textButtonTheme: TextButtonThemeData(
               style: TextButton.styleFrom(
-                textStyle: const TextStyle(fontSize: 30),
+                textStyle: const TextStyle(fontSize: 24),
                 minimumSize: const Size(200, 50),
               ),
             ),
