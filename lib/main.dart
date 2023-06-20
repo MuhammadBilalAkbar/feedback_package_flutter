@@ -29,7 +29,7 @@ class MyApp extends StatelessWidget {
             ),
             appBarTheme: const AppBarTheme(
               titleTextStyle: TextStyle(
-                fontSize: 24,
+                fontSize: 24
                 fontWeight: FontWeight.bold,
               ),
             ),
